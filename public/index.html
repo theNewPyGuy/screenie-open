@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<title>Screenme</title>
+	<!-- Bootstrap Core CSS -->
+    <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/static/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/static/css/form.css" rel="stylesheet" type="text/css">
+    <!--    
+    <link type="text/css" rel="stylesheet" href="css/agency.min.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    -->
+
+    <!-- Theme CSS -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+        body {
+            margin:auto;
+            overflow:hidden;
+        }
+        
+        #side-div-one{
+            padding: 0;
+            float: left;
+            margin: auto;
+            height: 100%;
+        }
+        #side-div-two {
+            float: right;
+            padding: 0;
+            background-color: red;
+            height:100%;
+            z-index: 100;
+        }
+        
+        #division-two{
+			border:solid 3px #c0c0c0;             
+            background-color: #c0c0c0;
+            overflow-x: scroll;
+            overflow-y: hidden;
+        }
+        #logo-img {
+            height: 50px;
+            width: 320px;
+        }
+        #mainNav {
+            background-color: #222222;
+            opacity: 1;
+            border: none;
+        }
+        .side-division {
+            background-color: green;
+        }
+        .division-two-div {
+
+            float: left;
+            position: relative;
+            text-align: center;
+        }
+        #searchbox {
+            position: absolute;
+        }
+        
+        #searchInput {
+            font-size: 18px;
+            border:none;
+            color: #f93232;
+        }
+        #searchSpan {
+            border:none;
+            padding:0;
+            background-color: #f93232;
+        }
+        .poster-container {
+        	float:left;
+        	position: absolute;
+        	z-index: 1;
+        }
+        .poster-details {
+        	position: absolute;
+        	padding:0;
+        	opacity: 0.8;
+        	z-index: 2;
+        	background-color: #222;
+        	color:#fff;
+        }
+        
+        .tagbar {
+        	height: 10px;
+        }
+        .smallMovieDetails {
+        	padding: 0;
+        }
+        #logo-icon {
+            background-color: red;
+            float: left;
+        }
+        #nav-search {
+            float: left;
+        }
+        #nav-dock {
+            float: right;
+        }
+        #guest-cast{     
+            padding-left: 5px;
+        }
+        #guest-cast > li {
+            list-style: none;
+        }
+        #guest-cast > li > span{
+            font-size: 11px;
+        }
+        .major-ef{
+            color:#efefef;
+            padding: 0;
+            font-size: 18px;
+        }
+        @media (max-width:1120px) {
+            #side-div-two {
+                display: none;
+            }
+            .smallMovieDetails {
+            	font-size: 14px;
+            }
+        } 
+
+    </style>
+    
+</head>
+<body>
+	
+	<div id="react-app">
+
+	</div>
+	
+
+    <script src="/static/vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="/bundle.js"></script>	
+</body>
+</html>	
